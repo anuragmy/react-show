@@ -8,7 +8,7 @@ const Carrousel = () => {
   const settings = {
     infinite: true,
     autoplay: true,
-    speed: 500,
+    speed: 20,
     dots: false
   };
 

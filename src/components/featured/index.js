@@ -1,5 +1,6 @@
 import React from "react";
 import Carrousel from "./Carrousel";
+import Timeuntil from "./Timeuntil";
 
 const Featured = () => {
   return (
@@ -12,6 +13,7 @@ const Featured = () => {
       <div className="artist_name">
         <div className="wrapper">Ariana Grande</div>
       </div>
+      <Timeuntil />
     </div>
   );
 };
