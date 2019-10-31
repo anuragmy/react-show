@@ -1,8 +1,5 @@
 import React from "react";
-
-import Drawer from "@material-ui/core/Drawer";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
+import { Drawer, ListItem, List } from "@material-ui/core";
 
 const SideDrawer = props => {
   return (
@@ -11,11 +8,7 @@ const SideDrawer = props => {
       open={props.open}
       onClose={() => props.onClose(false)}
     >
-      <List component="nav">
-        <ListItem button onClick={() => console.log("featured")}>
-          Event starts in
-        </ListItem>
-      </List>
+      Draweer
     </Drawer>
   );
 };
