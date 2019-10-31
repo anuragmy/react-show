@@ -8,7 +8,24 @@ const SideDrawer = props => {
       open={props.open}
       onClose={() => props.onClose(false)}
     >
-      Draweer
+      <List component="nav">
+        <ListItem button onClick={() => console.log("featured")}>
+          Event Starts In
+        </ListItem>
+
+        <ListItem button onClick={() => console.log("featured")}>
+          View NFO
+        </ListItem>
+        <ListItem button onClick={() => console.log("featured")}>
+          Highlights
+        </ListItem>
+        <ListItem button onClick={() => console.log("featured")}>
+          Pricing
+        </ListItem>
+        <ListItem button onClick={() => console.log("featured")}>
+          Location
+        </ListItem>
+      </List>
     </Drawer>
   );
 };

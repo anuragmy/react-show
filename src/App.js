@@ -4,7 +4,17 @@ import "./resources/styles.css";
 
 class App extends Component {
   render() {
-    return <Header />;
+    return (
+      <div
+        className="App"
+        style={{
+          height: "1500px",
+          backgroundColor: "cornflowerblue"
+        }}
+      >
+        <Header />
+      </div>
+    );
   }
 }
 
